@@ -307,7 +307,7 @@ def on_intent(intent_request, session):
  
             # send query to server and get response
             data = json.dumps(req)
-            httpReq = urllib2.Request("https://www.infiniconcept.com/api/eliza", 
+            httpReq = urllib2.Request("https://www.x.y.z.com/eliza", 
                                 data, 
                                 {'Content-Type': 'application/json'})
             f = urllib2.urlopen(httpReq)
